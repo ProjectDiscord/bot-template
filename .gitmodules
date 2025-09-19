@@ -4,3 +4,9 @@
 [submodule "packages/shared"]
 	path = packages/shared
 	url = https://github.com/ProjectDiscord/shared
+[submodule "bots/client"]
+	path = bots/client
+	url = https://github.com/ProjectDiscord/client
+[submodule "bots/helper"]
+	path = bots/helper
+	url = https://github.com/ProjectDiscord/helper
