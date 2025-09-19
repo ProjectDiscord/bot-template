@@ -1,0 +1,6 @@
+[submodule "packages/core"]
+	path = packages/core
+	url = https://github.com/ProjectDiscord/core
+[submodule "packages/shared"]
+	path = packages/shared
+	url = https://github.com/ProjectDiscord/shared
