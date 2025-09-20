@@ -82,7 +82,7 @@ cd bot-template
 npm install
 ```
 
-### 3. Setup environment variables (ROOT)
+### 3. Setup environment variables (.env) (ROOT)
 
 ```env
 # Database
