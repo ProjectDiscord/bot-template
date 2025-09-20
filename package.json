@@ -21,8 +21,6 @@
 	"scripts": {
 		"build": "turbo run build --force",
 		"dev": "turbo run dev --parallel",
-		"dev:client": "turbo run dev --filter=@projectdiscord/client",
-		"dev:helper": "turbo run dev --filter=@projectdiscord/helper",
 		"start:bot": "node ./bots/client/dist/index.js",
 		"start:helper": "node ./bots/helper/dist/index.js",
 		"lint": "turbo run lint",
