@@ -19,10 +19,12 @@
 	"license": "MIT",
 	"author": "ProjectDiscord",
 	"scripts": {
-		"build": "turbo run build",
+		"build": "turbo run build --force",
 		"dev": "turbo run dev --parallel",
-		"dev:client": "turbo run dev --filter=bots/client",
-		"dev:helper": "turbo run dev --filter=bots/helper",
+		"dev:client": "turbo run dev --filter=@projectdiscord/client",
+		"dev:helper": "turbo run dev --filter=@projectdiscord/helper",
+		"start:bot": "node ./bots/client/dist/index.js",
+		"start:helper": "node ./bots/helper/dist/index.js",
 		"lint": "turbo run lint",
 		"format": "turbo run format"
 	},
@@ -33,5 +35,6 @@
 	},
 	"dependencies": {
 		"@prisma/client": "^6.16.2"
-	}
+	},
+	"packageManager": "npm@11.6.0"
 }
