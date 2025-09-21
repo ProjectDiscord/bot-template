@@ -10,3 +10,6 @@
 [submodule "bots/helper"]
 	path = bots/helper
 	url = https://github.com/ProjectDiscord/helper
+[submodule "packages/dashboard"]
+	path = packages/dashboard
+	url = https://github.com/ProjectDiscord/dashboard
