@@ -3,6 +3,7 @@
 	"references": [
 		{ "path": "packages/shared" },
 		{ "path": "packages/core" },
+		{ "path": "packages/dashboard" },
 		{ "path": "bots/client" },
 		{ "path": "bots/helper" }
 	],
