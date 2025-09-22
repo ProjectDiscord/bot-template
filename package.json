@@ -22,6 +22,7 @@
 		"build": "turbo run build --force",
 		"dev": "turbo run dev --parallel",
 		"start:bot": "node ./bots/client/dist/index.js",
+		"start:dashboard": "node ./packages/dashboard/dist/index.js",
 		"start:helper": "node ./bots/helper/dist/index.js",
 		"lint": "turbo run lint",
 		"format": "turbo run format"
